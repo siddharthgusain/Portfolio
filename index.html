@@ -12,7 +12,30 @@
 <body>
 
   <div class="main">
-    <section class="home-section align-items-center hidden">
+
+    <header class="header">
+      <div class="container">
+        <div class="row flex-end">
+          <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <div class="nav-inner">
+              <ul>
+                <li><a href="#" class="nav-item">home</a></li>
+                <li><a href="#" class="nav-item">about</a></li>
+                <li><a href="#" class="nav-item">portfolio</a></li>
+                <li><a href="#" class="nav-item">contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
+
+    <section class="home-section align-items-center">
       <div class="container">
         <div class="row align-items-center">
           <div class="home-text">
@@ -135,7 +158,7 @@
       </div>
     </section>
 
-    <section class="portfolio-section sec-padding">
+    <section class="portfolio-section sec-padding hidden">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -206,7 +229,7 @@
               </div>
               <div class="general-info">
                 <ul>
-                  <li>technologies used - <span>Raspberry Pi , Python , Thinkspeak-API , Tensorflow , keras etc.</span></li>
+                  <li>technologies used - <span>Raspberry Pi , Python , Thinkspeak-API , numpy, keras etc.</span></li>
                   <li>View Online -<span><a href="https://github.com/siddharthgusain/Smart-city" target="_blank">https://github.com/siddharthgusain/Smart-city</a></span></li>
                 </ul>
               </div>
@@ -290,12 +313,59 @@
     </section>
 
 
-    ><section class="contact-section">
+    <section class="contact-section sec-padding hidden">
       <div class="container">
         <div class="row">
           <div class="section-title">
             <h2>contact me</h2>
           </div>
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <form>
+              <div class="row">
+                <div class="input-group">
+                  <input type="text" placeholder="Name" class ="input-control" required>
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Email" class ="input-control" required>
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Subject" class ="input-control" required>
+                </div>
+                <div class="input-group">
+                  <textarea placeholder="Message" class="input-control" required></textarea>
+                </div>
+                <div class="submit-btn">
+                  <button type = "submit" class="btn">send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <h3>Email</h3>
+              <p>siddharthgusain26011999@gmail.com</p>
+            </div>
+            <div class="contact-info-item">
+              <h3>Phone</h3>
+              <p>(+91) 9711381395</p>
+            </div>
+            <div class="contact-info-item">
+              <h3>Profile Links</h3>
+              <div class="social-links">
+                
+                <a href="https://www.linkedin.com/in/siddharth-gusain/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/siddharthgusain" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.hackerrank.com/siddharthgusain1" target="_blank"><i class="fab fa-hackerrank"></i></a>
+                <a href="https://twitter.com/Siddharthgusai4" target="_blank"><i class="fab fa-twitter"></i></a>
+                
+                
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
