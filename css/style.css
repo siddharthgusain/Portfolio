@@ -3,7 +3,7 @@
 
 
 :root{
-    --main-color: #ec6fe1;
+    --main-color: #ca33be;
     --blue:#2786df;
     --blue-dark:#080708;
     --orange:#ffa500;
@@ -31,7 +31,7 @@
 
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right , var(--pink-light) , var(--cyan-light));
+    background-image: linear-gradient(to bottom right , var(--blue) , var(--cyan-light));
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -253,12 +253,12 @@ button{
 }
 
 .bg-circles .circle-1{
-    height: 60px;
-    width:60px;
-    background-color: var(--blue);
+    height: 80px;
+    width:80px;
+    background-color: red;
     left: 5%;
     top:10%;
-    opacity: 0.3;
+    opacity: 0.4;
     animation: zoomInOut 8s linear infinite;
 }
 
